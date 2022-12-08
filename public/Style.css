@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    align-items: center;
+    color: brown;
+    text-align: center;
+    
+}
+.form h1{
+    
+    font-family: fantasy;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+  
+    
+}
+.form{
+    margin: 100px;
+    background-color: darkkhaki;
+    padding: 100px;
+    color:chocolate;
+    text-align: center;
+
+    display: block;
+    max-width: 500px;
+    max-block-size: 10in;
+    box-sizing: border-box;
+    font-size:large;
+    background-image: repeating-linear-gradient(rgb(236, 114, 114), rgb(207, 18, 75) 10%, rgb(0, 2, 0) 20%);
+    
+    
+}
+.user
+{
+   text-align: center;
+   padding:5px;
+   margin: 2px;
+}
+.password{
+    text-align: center;
+    padding:5px;
+
+}

@@ -32,6 +32,7 @@ app.post("/",function(req,res){
         if(user){
             if(password===user.password){
                 res.send({message:"Succesfully logged in",user:user});
+                
             }
             else{
                 res.send({message:"wrong password"});
@@ -55,6 +56,14 @@ app.post("/",function(req,res){
         }
     })
 
+})
+app.post("/welcome",function(req,res){
+    const {username,password}=req.body;
+    if(username && password){
+        res.send({message:"welcome "+username})
+    }
+   
+   
 })
 
 

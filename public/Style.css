@@ -3,6 +3,7 @@ body{
     align-items: center;
     color: brown;
     text-align: center;
+    justify-content: center;
     
 }
 .form h1{
@@ -20,7 +21,7 @@ body{
     padding: 100px;
     color:chocolate;
     text-align: center;
-
+     justify-content: center;
     display: block;
     max-width: 500px;
     max-block-size: 10in;

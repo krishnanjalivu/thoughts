@@ -25,8 +25,8 @@ function Login(){
         axios.post("http://localhost:8000/",user)
         .then((res)=>{alert(res.data.message)
         setlogin(res.data.user)
-        navigate("/welcome");
         })
+        navigate("/welcome");
         
             
         }
